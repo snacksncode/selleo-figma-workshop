@@ -1,0 +1,45 @@
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(/assets/fonts/LeagueSpartan-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(/assets/fonts/LeagueSpartan-SemiBold.woff2);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(/assets/fonts/LeagueSpartan-Bold.woff2);
+  font-weight: 700;
+}
+
+:root {
+  --clr-neutral-500: #5c544c;
+  --clr-neutral-400: #93877b;
+  --clr-primary: #829f3c;
+  --clr-secondary: #f55e00;
+  --clr-white: #ffffff;
+
+  --br-pill: 999px;
+  --br-normal: 8px;
+
+  --border-width: 2px;
+
+  --shadow-default: 16px 16px 48px 0px #5c544c33;
+}
+
+body {
+  font-family: LeagueSpartan, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--clr-neutral-500);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

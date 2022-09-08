@@ -1,0 +1,6 @@
+.main {
+  max-width: 1440px;
+  padding-inline: 32px;
+  margin-inline: auto;
+  position: relative;
+}

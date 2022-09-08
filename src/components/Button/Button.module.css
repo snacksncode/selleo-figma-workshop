@@ -1,0 +1,40 @@
+.main {
+  font-weight: 700;
+  border-radius: var(--br-pill);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 48px;
+  padding: 0.5rem 1.5rem;
+  background: transparent;
+  letter-spacing: 1px;
+}
+.main span {
+  line-height: 1;
+  position: relative;
+  top: 2px;
+}
+.main.filled {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+.main.outlined {
+  border: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+}
+.main.small {
+  padding: 0 1rem;
+  height: 32px;
+}
+.main.link {
+  background: none;
+  height: auto;
+  font-weight: 600;
+  padding: 0;
+  text-transform: none;
+  font-size: 20px;
+  color: var(--clr-neutral-500);
+}
