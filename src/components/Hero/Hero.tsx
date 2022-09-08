@@ -26,6 +26,7 @@ export const Hero: FC = () => {
         <HeroPopup
           position={{ right: "32px", bottom: "32px" }}
           text="milk, wheat"
+          bgColor="var(--clr-neutral-300)"
           icon={
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
               <path

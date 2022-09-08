@@ -17,8 +17,9 @@
 }
 
 :root {
-  --clr-neutral-500: #5c544c;
+  --clr-neutral-300: #f8f7f7;
   --clr-neutral-400: #93877b;
+  --clr-neutral-500: #5c544c;
   --clr-primary: #829f3c;
   --clr-secondary: #f55e00;
   --clr-white: #ffffff;
